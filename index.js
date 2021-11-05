@@ -30,7 +30,7 @@ app.use("/blog", auth);
 app.use("/userblogs", auth);
 
 app.listen(process.env.port, () => {
-  console.log(`Server is listening on port: ${process.env.port}`);
+  console.log(`Server is listening on port: ${process.env.PORT}`);
 });
 
 //helper function
